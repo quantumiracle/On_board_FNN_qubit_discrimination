@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]C:\Users\wuyanwen\Desktop\ps_pl5\ps_pl\hw_proj\project\project.sdk\fsbl\Debug\fsbl.elf
+	C:\Users\wuyanwen\Desktop\ps_pl5\ps_pl\hw_proj\project\project.runs\impl_1\system_wrapper.bit
+	C:\Users\wuyanwen\Desktop\ps_pl5\ps_pl\hw_proj\project\project.sdk\ps_pl\Debug\ps_pl.elf
+}

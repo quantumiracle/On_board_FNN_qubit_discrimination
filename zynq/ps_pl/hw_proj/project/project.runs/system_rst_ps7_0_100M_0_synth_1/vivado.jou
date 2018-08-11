@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Fri Jul 20 14:29:07 2018
+# Process ID: 3056
+# Current directory: F:/zedboard/ps_pl/hw_proj/project/project.runs/system_rst_ps7_0_100M_0_synth_1
+# Command line: vivado.exe -log system_rst_ps7_0_100M_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_rst_ps7_0_100M_0.tcl
+# Log file: F:/zedboard/ps_pl/hw_proj/project/project.runs/system_rst_ps7_0_100M_0_synth_1/system_rst_ps7_0_100M_0.vds
+# Journal file: F:/zedboard/ps_pl/hw_proj/project/project.runs/system_rst_ps7_0_100M_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source system_rst_ps7_0_100M_0.tcl -notrace

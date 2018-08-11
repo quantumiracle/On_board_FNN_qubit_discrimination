@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Fri Aug 10 22:57:43 2018
+# Process ID: 3384
+# Current directory: C:/Users/wuyanwen/Desktop/ps_pl5/ps_pl/hw_proj/project/project.runs/system_processing_system7_0_0_synth_1
+# Command line: vivado.exe -log system_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_processing_system7_0_0.tcl
+# Log file: C:/Users/wuyanwen/Desktop/ps_pl5/ps_pl/hw_proj/project/project.runs/system_processing_system7_0_0_synth_1/system_processing_system7_0_0.vds
+# Journal file: C:/Users/wuyanwen/Desktop/ps_pl5/ps_pl/hw_proj/project/project.runs/system_processing_system7_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source system_processing_system7_0_0.tcl -notrace

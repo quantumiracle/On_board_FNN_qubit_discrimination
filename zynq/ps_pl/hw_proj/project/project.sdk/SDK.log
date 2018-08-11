@@ -1,0 +1,59 @@
+23:15:50 INFO  : Registering command handlers for SDK TCF services
+23:15:51 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\wuyanwen\Desktop\ps_pl5\ps_pl\hw_proj\project\project.sdk\temp_xsdb_launch_script.tcl
+23:15:55 INFO  : XSCT server has started successfully.
+23:15:55 INFO  : Successfully done setting XSCT server connection channel  
+23:15:55 INFO  : Processing command line option -hwspec C:/Users/wuyanwen/Desktop/ps_pl5/ps_pl/hw_proj/project/project.sdk/system_wrapper.hdf.
+23:15:55 INFO  : Successfully done setting SDK workspace  
+23:26:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:26:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210249854623" && level==0} -index 1' command is executed.
+23:26:10 INFO  : FPGA configured successfully with bitstream "C:/Users/wuyanwen/Desktop/ps_pl5/ps_pl/hw_proj/project/project.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+23:27:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210249854623" && level==0} -index 1' command is executed.
+23:27:32 INFO  : 'fpga -state' command is executed.
+23:27:32 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:27:32 INFO  : Jtag cable 'Digilent JTAG-HS1 210249854623' is selected.
+23:27:32 INFO  : 'jtag frequency' command is executed.
+23:27:32 INFO  : Sourcing of 'C:/Users/wuyanwen/Desktop/ps_pl5/ps_pl/hw_proj/project/project.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+23:27:32 INFO  : Context for 'APU' is selected.
+23:27:32 INFO  : Hardware design information is loaded from 'C:/Users/wuyanwen/Desktop/ps_pl5/ps_pl/hw_proj/project/project.sdk/system_wrapper_hw_platform_0/system.hdf'.
+23:27:32 INFO  : Context for 'APU' is selected.
+23:27:32 INFO  : 'stop' command is executed.
+23:27:33 INFO  : 'ps7_init' command is executed.
+23:27:33 INFO  : 'ps7_post_config' command is executed.
+23:27:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:27:33 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+23:27:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:27:34 INFO  : The application 'C:/Users/wuyanwen/Desktop/ps_pl5/ps_pl/hw_proj/project/project.sdk/ps_pl/Debug/ps_pl.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:27:34 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source C:/Users/wuyanwen/Desktop/ps_pl5/ps_pl/hw_proj/project/project.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-HS1 210249854623"} -index 0
+loadhw C:/Users/wuyanwen/Desktop/ps_pl5/ps_pl/hw_proj/project/project.sdk/system_wrapper_hw_platform_0/system.hdf
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-HS1 210249854623"} -index 0
+stop
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210249854623"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210249854623"} -index 0
+dow C:/Users/wuyanwen/Desktop/ps_pl5/ps_pl/hw_proj/project/project.sdk/ps_pl/Debug/ps_pl.elf
+----------------End of Script----------------
+
+23:27:34 INFO  : Memory regions updated for context APU
+23:27:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:27:34 INFO  : 'con' command is executed.
+23:27:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-HS1 210249854623"} -index 0
+con
+----------------End of Script----------------
+
+23:27:34 INFO  : Launch script is exported to file 'C:\Users\wuyanwen\Desktop\ps_pl5\ps_pl\hw_proj\project\project.sdk\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_ps_pl.elf_on_local.tcl'
+23:32:43 INFO  : Invoking Bootgen: bootgen -image output.bif -arch zynq -o F:\zedboard\uart\helloworld\helloworld.sdk\helloworld\Debug\BOOT.bin -w on
+23:32:43 INFO  : Overwriting existing bif file F:\zedboard\uart\helloworld\helloworld.sdk\helloworld\Debug\output.bif
+23:32:45 INFO  : Bootgen command execution is done.
+23:35:39 INFO  : Invoking Bootgen: bootgen -image output.bif -arch zynq -o C:\Users\wuyanwen\Desktop\ps_pl5\ps_pl\hw_proj\project\project.sdk\ps_pl\Debug\BOOT.bin
+23:35:39 INFO  : Creating new bif file C:\Users\wuyanwen\Desktop\ps_pl5\ps_pl\hw_proj\project\project.sdk\ps_pl\Debug\output.bif
+23:35:41 INFO  : Bootgen command execution is done.
+23:41:45 INFO  : Invoking Bootgen: bootgen -image output.bif -arch zynq -o C:\Users\wuyanwen\Desktop\ps_pl5\ps_pl\hw_proj\project\project.sdk\ps_pl\Debug\BOOT.bin -w on
+23:41:45 INFO  : Overwriting existing bif file C:\Users\wuyanwen\Desktop\ps_pl5\ps_pl\hw_proj\project\project.sdk\ps_pl\Debug\output.bif
+23:41:46 INFO  : Bootgen command execution is done.
+23:45:01 INFO  : Disconnected from the channel tcfchan#1.

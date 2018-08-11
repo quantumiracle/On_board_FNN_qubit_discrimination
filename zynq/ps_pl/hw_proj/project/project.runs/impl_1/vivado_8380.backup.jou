@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4_sdx (64-bit)
+# SW Build 1806307 on Thu Mar  9 15:24:31 MST 2017
+# IP Build 1759159 on Thu Jan 26 07:31:30 MST 2017
+# Start of session at: Fri Aug 10 11:58:40 2018
+# Process ID: 8380
+# Current directory: D:/Users/jmcui/workspace/ps_pl5/ps_pl/hw_proj/project/project.runs/impl_1
+# Command line: vivado.exe -log system_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source system_wrapper.tcl -notrace
+# Log file: D:/Users/jmcui/workspace/ps_pl5/ps_pl/hw_proj/project/project.runs/impl_1/system_wrapper.vdi
+# Journal file: D:/Users/jmcui/workspace/ps_pl5/ps_pl/hw_proj/project/project.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace

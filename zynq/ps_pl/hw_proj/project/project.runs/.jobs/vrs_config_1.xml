@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="system_processing_system7_0_0_synth_1" LaunchDir="F:/zedboard/ps_pl/hw_proj/project/project.runs/system_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_myip_0_0_synth_1" LaunchDir="F:/zedboard/ps_pl/hw_proj/project/project.runs/system_myip_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_rst_ps7_0_100M_0_synth_1" LaunchDir="F:/zedboard/ps_pl/hw_proj/project/project.runs/system_rst_ps7_0_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_count_top_0_0_synth_1" LaunchDir="F:/zedboard/ps_pl/hw_proj/project/project.runs/system_count_top_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="system_auto_pc_0_synth_1" LaunchDir="F:/zedboard/ps_pl/hw_proj/project/project.runs/system_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+
