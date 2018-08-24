@@ -7,4 +7,4 @@ All codes are in ```zynq/pspl/document```, including software codes (C based, or
 ; if you choose a standalone application in sDx, you could only use C based codes with libraries provided by the software; if it's a 
 Linux platform application, you could use the C++ based codes, but make sure you have a boot image of Linux system which contains 
 C++ supporting libraries) in ```soft_code``` and hardware codes (verilog codes) in ```rtl```. The implemention project of hardware codes is in ```zynq/pspl/hw_proj```
-, including ```project.epr```(open it in Vivado).
+, including ```project.xpr```(open it in Vivado).
