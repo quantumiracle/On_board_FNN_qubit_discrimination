@@ -15,6 +15,7 @@
 	)
 	(
 		// Users to add ports here
+		//*******change here********
         input [7:0] data,
         input clear,
         //input [6:0] data_cont,
@@ -51,6 +52,7 @@
 		.C_S_AXI_DATA_WIDTH(C_S_AXI_DATA_WIDTH),
 		.C_S_AXI_ADDR_WIDTH(C_S_AXI_ADDR_WIDTH)
 	) myip_v1_0_S_AXI_inst (
+	//******change here*******//
 	    .data(data),
 	    .clear(clear),
         //.data_cont(data_cont),
