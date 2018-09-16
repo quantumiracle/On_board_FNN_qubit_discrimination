@@ -15,6 +15,7 @@
     )
     (
         // Users to add ports here
+        //**********change here***********
         input [7:0] data,
         input clear,
         //input [6:0] data_cont,
@@ -422,6 +423,7 @@
    always @(*)
      begin
            // Address decoding for reading registers
+           //**************change here*************
            case ( axi_araddr[ADDR_LSB+OPT_MEM_ADDR_BITS:ADDR_LSB] )
              2'h0   : reg_data_out <= data;
              2'h1   : reg_data_out <= clear;
