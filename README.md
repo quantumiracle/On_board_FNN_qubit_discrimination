@@ -1,5 +1,5 @@
 # FPGA+ARM on board implemented FNN (fully-connected neural network) for single qubit discrimination in ion trap
-[paper: _Fast and High-Fidelity Readout of Single Trapped-Ion Qubit via Machine Learning Methods_
+paper:[ _Fast and High-Fidelity Readout of Single Trapped-Ion Qubit via Machine Learning Methods_
 Zi-Han Ding, Jin-Ming Cui, Yun-Feng Huang, Chuan-Feng Li, Tao Tu, Guang-Can Guo](https://arxiv.org/abs/1810.07997v1)
 currently under submission at Physics Review Applied.
 ## Abstract
